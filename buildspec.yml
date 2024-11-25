@@ -16,8 +16,8 @@ phases:
       - nohup npm start &
       - sleep 5 # Wait for the server to start
       - echo "Running tests..."
-      - chmod +x test/test.sh
-      - ./test/test.sh
+      - chmod +x test.sh
+      - ./test.sh
 
 artifacts:
   files:
